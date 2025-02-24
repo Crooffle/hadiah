@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadiah Pilihan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <p id="question"><b>Masukkan Hadiah (Asus ROG Zepherus Duo Pliss)</b></p>
+
+        <form id="giftForm">
+            <input type="text" id="nama" placeholder="Masukkan Nama" required>
+
+            <input type="text" id="hadiah" placeholder="Masukkan Hadiah" required>
+
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <p>Yakin nggak mau kasih Asus ROG Zepherus Duo bang?</p>
+            <button id="yesBtn">Iya</button>
+            <button id="noBtn">Kasih Deh</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
